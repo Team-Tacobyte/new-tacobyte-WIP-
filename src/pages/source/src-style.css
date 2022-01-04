@@ -1,0 +1,22 @@
+/* Copyright TacoByte 2021 */
+
+.body {
+    background-color: grey;
+}
+
+.title {
+    color: white;
+    background-color: rgb(43, 40, 40);
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+    color: white;
+    background-color: darkcyan;
+}
+
+.rules {
+    color: white;
+    text-align: center;
+}

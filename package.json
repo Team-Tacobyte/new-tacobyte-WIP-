@@ -1,0 +1,22 @@
+{
+  "name": "tacobyte",
+  "version": "1.0.0",
+  "description": "TacoByte is a Technology Focused community. Our community focuses on Things such as, Game Development, Coding, Hacking and More. We also make Developer Tools.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team-Tacobyte/Public-Test-Build.git"
+  },
+  "author": "Team-Tacobyte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Team-Tacobyte/Public-Test-Build/issues"
+  },
+  "homepage": "https://github.com/Team-Tacobyte/Public-Test-Build#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
