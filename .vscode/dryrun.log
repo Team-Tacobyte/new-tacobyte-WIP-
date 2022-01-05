@@ -1,5 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/compromyse/data/laboratory/new-tacobyte-WIP-'
-sh -c 'docker build -t tacobyte .'
-make: Leaving directory '/home/compromyse/data/laboratory/new-tacobyte-WIP-'
- 
