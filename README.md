@@ -1,1 +1,14 @@
 # Tacobyte website
+
+
+# Backend instruction
+
+create a python env in "backend" directory with : python3 -m venv auth
+and activate with this command : source auth/bin/activate
+now you can run the app : 
+
+export FLASK_APP=project
+export FLASk_DEBUG=1
+flask run
+
+ ! need to run a mysql service in localhost !
