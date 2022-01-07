@@ -168,6 +168,17 @@
     color: rgba(0, 0, 0, 0);
   }
 
+  .welcome {
+    width: 25ch;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-animation: type 2.2s steps(200);
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    color: rgba(0, 0, 0, 0);
+
+  }
+
 
   @keyframes type {
     0% {

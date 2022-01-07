@@ -11,16 +11,17 @@
 
 
   <link rel="icon" href="https://pizzabyte.club/ok/favicon.ico">
-  <link rel="stylesheet" href="page-styles.css">
+  <link rel="stylesheet" href="{{ url_for('static',filename='styles/page-styles.css') }}">
 </head>
 
 <body style="background-color: gray;">
-  <img id="first" src="./welcome_files/icon.png" padding="50px" width="650px">
+  <img id="first" src="{{ url_for('static',filename='welcome_files/icon.png') }}" padding="50px" width="650px">
   <title>TacoByte</title>
 
 
   <center>
     <h1 class="title"> Account Created </h1>
+    <h1 class="welcome"> Welcome {{ name }}</h1>
   </center>
   <span class="link"> Join our discord server <a href="https://discord.gg/YSpu5vM" id="link">here</a>. </span>
   <span class="link2"> </span>
@@ -40,4 +41,5 @@
      If someone is asking you to paste something here and you paste it here, then they will have access to everything, your ip, your password, your cookies, and other stuff.`);
   </script>
 </body>
+
 </html>
