@@ -1,2 +1,5 @@
-pas vide
+export FLASK_APP=project
+export FLASk_DEBUG=1
+flask run
 
+need to run a mysql service in localhost 
